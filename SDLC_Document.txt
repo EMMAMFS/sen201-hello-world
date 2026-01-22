@@ -1,0 +1,107 @@
+1. ABSTRACT
+
+The Student Result Management System is a console-based Python application designed to manage and process students’ academic results efficiently. The system allows users to input student details and course scores, automatically calculates total and average scores, and determines the pass or fail status. This project follows the Software Development Life Cycle (SDLC) methodology to ensure a structured approach from requirement gathering to maintenance.
+
+⸻
+
+2. REQUIREMENTS ANALYSIS
+
+2.1 Functional Requirements
+
+The system shall:
+	•	Accept student name as input.
+	•	Accept scores for multiple courses.
+	•	Calculate the total score.
+	•	Calculate the average score.
+	•	Display the student’s final result and status (Pass/Fail).
+
+2.2 Non-Functional Requirements
+
+The system shall:
+	•	Be user-friendly and simple to operate.
+	•	Run on any computer with Python installed.
+	•	Produce accurate results.
+	•	Respond quickly to input.
+
+⸻
+
+3. SYSTEM DESIGN
+
+3.1 Inputs
+	•	Student name
+	•	Number of courses
+	•	Scores for each course
+
+3.2 Processing
+	•	Sum all course scores.
+	•	Calculate the average score.
+	•	Determine pass/fail status (average ≥50 → Pass; else Fail).
+
+3.3 Outputs
+	•	Student name
+	•	Total score
+	•	Average score
+	•	Result status (Pass/Fail)
+
+3.4 Tools & Platform
+	•	Programming Language: Python
+	•	Platform: Console / Terminal
+
+⸻
+
+4. IMPLEMENTATION
+
+The system was implemented in Python following the design specifications:
+	1.	The user is prompted to enter the student’s name.
+	2.	The user enters the number of courses.
+	3.	The user enters each course score.
+	4.	The system calculates the total and average scores.
+	5.	The system determines pass or fail status based on the average score.
+	6.	The result summary is displayed to the user.
+
+All names and variables in the code correspond to the design specifications to maintain consistency.
+
+
+⸻
+
+5. TESTING
+
+Test Case Example
+
+Input:
+	•	Student Name: John
+	•	Number of Courses: 3
+	•	Scores: 70, 60, 80
+
+Expected Output:
+	•	Total Score: 210
+	•	Average Score: 70
+	•	Status: PASS
+
+Result:
+The system produced the expected output successfully. All tests passed, confirming correct functionality.
+
+⸻
+
+6. DEPLOYMENT
+
+
+The system can be deployed by running the Python program in a terminal or command prompt using:
+python student_result_system.py
+The system can be used on any computer with Python installed. No additional setup is required.
+
+⸻
+
+7. MAINTENANCE
+
+The system can be maintained and improved by:
+	•	Fixing any bugs that arise.
+	•	Adding new features (e.g., grading system, file storage).
+	•	Upgrading to a graphical user interface (GUI) or web-based version.
+	•	Updating documentation and code comments for future developers.
+
+⸻
+
+8. CONCLUSION
+
+The Student Result Management System demonstrates the application of the SDLC methodology. It meets the specified requirements, functions correctly, and provides a simple and efficient solution for managing student results.
